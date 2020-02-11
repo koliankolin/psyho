@@ -1,3 +1,5 @@
 {
-  "dbUri": "mongodb+srv://user:fJ2TAYjOhOkQVTsW@psyho-lwkdj.mongodb.net/test?retryWrites=true&w=majority"
+  "dbUri": "mongodb+srv://user:fJ2TAYjOhOkQVTsW@psyho-lwkdj.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecrete": "Va6aJmuYyt",
+  "headerTokenName": "x-auth-token"
 }

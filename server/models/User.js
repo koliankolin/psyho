@@ -15,6 +15,9 @@ const UserSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    avatar: {
+        type: String
+    },
     creation_date: {
         type: Date,
         default: Date.now()
@@ -22,6 +25,10 @@ const UserSchema = mongoose.Schema({
     update_date: {
         type: Date,
         default: Date.now()
+    },
+    email_confirmed: {
+        type: Boolean,
+        default: false
     },
     is_admin: {
         type: Boolean,
